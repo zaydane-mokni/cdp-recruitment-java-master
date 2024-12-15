@@ -1,4 +1,4 @@
-package adeo.leroymerlin.cdp;
+package adeo.leroymerlin.cdp.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

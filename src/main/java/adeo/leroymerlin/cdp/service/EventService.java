@@ -1,5 +1,7 @@
-package adeo.leroymerlin.cdp;
+package adeo.leroymerlin.cdp.service;
 
+import adeo.leroymerlin.cdp.entities.Event;
+import adeo.leroymerlin.cdp.repository.EventRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

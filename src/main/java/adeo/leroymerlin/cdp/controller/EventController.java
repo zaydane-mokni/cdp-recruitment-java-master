@@ -1,5 +1,7 @@
-package adeo.leroymerlin.cdp;
+package adeo.leroymerlin.cdp.controller;
 
+import adeo.leroymerlin.cdp.service.EventService;
+import adeo.leroymerlin.cdp.entities.Event;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
