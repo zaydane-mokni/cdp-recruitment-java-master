@@ -1,6 +1,7 @@
 package adeo.leroymerlin.cdp;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -8,5 +9,5 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(readOnly = true)
 public interface EventRepository extends JpaRepository<Event, Long> {
     @Transactional
-    void deleteById(Long eventId);
+    void deleteById(@NonNull Long eventId);
 }
