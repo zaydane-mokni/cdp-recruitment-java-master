@@ -71,5 +71,4 @@ Instead of returning just the title, it appends the number of bands in brackets.
     }
 ```
 
-### ⚠️ I’m a fullstack TypeScript developer, and I have experience with Java SE, but this is my first time working with Spring Boot. 
-Due to time constraints, I wasn’t able to add tests.
+### ⚠️ I’m a fullstack TypeScript developer, and I have experience with Java SE, but this is my first time working with Spring Boot. Due to time constraints I wasn’t able to add tests.
