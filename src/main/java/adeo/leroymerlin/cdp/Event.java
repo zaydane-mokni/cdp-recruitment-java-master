@@ -1,5 +1,6 @@
 package adeo.leroymerlin.cdp;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import java.util.Set;
 
@@ -66,5 +67,10 @@ public class Event {
 
     public void setComment(String comment) {
         this.comment = comment;
+    }
+
+    @JsonProperty("title")
+    public String getTitleWithBandsCount() {
+        return title + " [" + (bands != null ? bands.size() : 0) + "]";
     }
 }
